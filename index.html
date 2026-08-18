@@ -90,19 +90,15 @@
 </head>
 <body>
 
-
   <h3>Global Time Converter</h3>
-
 
   <div class="toggle-bar">
     <span class="direction-text" id="directionLabel">IST ➔ Foreign Timezone</span>
     <button class="swap-btn" id="swapBtn">⇄ Toggle</button>
   </div>
 
-
   <label for="timeInput" id="inputLabel">Enter Time in IST:</label>
   <input type="datetime-local" id="timeInput">
-
 
   <label for="targetTimezone" id="tzLabel">Select Foreign Timezone:</label>
   <select id="targetTimezone">
@@ -111,18 +107,18 @@
     <option value="Europe/London">London (GMT/BST)</option>
     <option value="Europe/Paris">Paris (CET/CEST)</option>
     <option value="Europe/Berlin">Berlin (CET/CEST)</option>
+    <option value="Asia/Dubai">Dubai (Gulf Standard Time)</option>
+    <option value="Asia/Riyadh">Riyadh (Arabian Standard Time)</option>
+    <option value="Asia/Jerusalem">Jerusalem (IST/IDT)</option>
     <option value="Asia/Tokyo">Tokyo (JST)</option>
     <option value="Asia/Singapore">Singapore (SGT)</option>
     <option value="Australia/Sydney">Sydney (AEST/AEDT)</option>
     <option value="UTC">Coordinated Universal Time (UTC)</option>
   </select>
 
-
   <button class="convert-btn" id="convertBtn">Convert Time</button>
 
-
   <div class="result" id="result">Result will appear here</div>
-
 
   <script src="popup.js"></script>
 </body>
